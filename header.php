@@ -14,7 +14,7 @@
         }
         
         .navbar-brand img {
-            height: 50px;
+            height: 80px;
             max-width: 100%;
         }
         
@@ -43,6 +43,9 @@
             background-color: #003980;
             color: white;
         }
+        header {
+          box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2) !important; /* bottom border shadow */
+        }
         
         /* Mobile menu styling */
         @media (max-width: 991px) {
@@ -63,7 +66,7 @@
 </head>
 <body>
     <!-- Header/Navigation -->
-    <header>
+    <header class="Header">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <!-- Logo -->
@@ -92,7 +95,7 @@
                             <a class="nav-link" href="career.php">CAREER</a>
                         </li>
                         <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
-                            <a class="btn consultation-btn" href="schedule.php">Schedule a Consultation</a>
+                            <a class="btn consultation-btn" href="contact.php">Schedule a Consultation</a>
                         </li>
                     </ul>
                 </div>

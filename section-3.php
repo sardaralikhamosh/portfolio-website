@@ -12,7 +12,7 @@
         <div class="science-tech-container">
             <div class="row g-0">
                 <!-- Content Column -->
-                <div class="col-lg-6 col-md-12 content-column">
+                <div class="col-lg-5 col-md-12 content-column">
                     <div class="content-wrapper">
                         <h2>Science &<br>Technology</h2>
                         
@@ -40,9 +40,9 @@
                 </div>
                 
                 <!-- Image Column with Angle -->
-                <div class="col-lg-6 col-md-12 image-column">
+                <div class="col-lg-7 col-md-12 image-column">
                     <div class="image-container">
-                        <img src="images/section-3-col-2.png" alt="Scientist holding semiconductor wafer in laboratory" class="img-fluid">
+                        <img src="images/section-3-banner.png" alt="Scientist holding semiconductor wafer in laboratory" class="img-fluid">
                     </div>
                 </div>
             </div>

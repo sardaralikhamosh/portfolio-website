@@ -12,14 +12,14 @@
         <div class="about-container">
             <div class="row g-0">
                 <!-- Image Column with Angle -->
-                <div class="col-lg-6 col-md-12 about-image-container">
+                <div class="col-lg-7 col-md-12 about-image-container">
                     <div class="about-image">
-                        <img src="images/section-2-col-1.png" alt="Elemental Biologics Laboratory" class="img-fluid">
+                        <img src="images/section-2-banner.png" alt="Elemental Biologics Laboratory" class="img-fluid">
                     </div>
                 </div>
                 
                 <!-- Content Column -->
-                <div class="col-lg-6 col-md-12 about-content-wrapper">
+                <div class="col-lg-5 col-md-12 about-content-wrapper">
                     <div class="about-content">
                         <h2>About Us</h2>
                         <p class="mb-4">

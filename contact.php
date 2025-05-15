@@ -5,28 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enomondia - Therapeutic Antibody Platform</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <!-- header -->
-<section>
+<header>
     <?php include "header.php"; ?>
-</section>
+</header>
 
 <!-- Main Content -->
-    <main class="container-fluid">
-        <div class="page-header-strip">
-        <div class="container">
-            <div class="page-title">
-                Career
-            </div>
-            <div class="breadcrumb">
-                <a href="/index.php">Home</a> / <span>career</span>
-            </div>
-        </div>
-    </div>
+    <main class="container-fluid margin-top-5">
         <section class="container">
-            <?php include('templates/career.php'); ?>
+            <?php include('templates/contact.php'); ?>
         </section>
     </main>
 

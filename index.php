@@ -14,15 +14,18 @@
 </header>
 
 <!-- Main Content -->
-    <main class="container my-5">
+    <main class="container-fluid">
         <?php include "slider.php"; ?>
         <?php include('section-1.php'); ?>
-        <?php include('section-2.php'); ?>
+        <section class="container-fluid">
+            <?php include('section-2.php'); ?>
+        </section>
+        
         <?php include('section-3.php'); ?>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-light py-5">
+    <footer class=" container-fluid bg-light">
      <?php include "footer.php"; ?>
     </footer>
 
