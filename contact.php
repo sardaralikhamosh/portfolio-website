@@ -13,6 +13,18 @@
     <?php include "header.php"; ?>
 </header>
 
+<!-- strip -->
+<div class="page-header-strip">
+        <div class="container">
+            <div class="page-title">
+                Contact
+            </div>
+            <div class="breadcrumb">
+                <a href="/index.php">Home</a> / <span>contact</span>
+            </div>
+        </div>
+    </div>
+
 <!-- Main Content -->
     <main class="container-fluid margin-top-5">
         <section class="container">

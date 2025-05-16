@@ -1,13 +1,3 @@
-<div class="page-header-strip">
-        <div class="container">
-            <div class="page-title">
-                Contact
-            </div>
-            <div class="breadcrumb">
-                <a href="/index.php">Home</a> / <span>contact</span>
-            </div>
-        </div>
-    </div>
 <section class="contact-section margin-top-5" id="contact">
     <div class="container">
         <div class="row">
@@ -21,7 +11,7 @@
                         </div>
                         <div class="contact-details">
                             <h3>Elemental Biologics</h3>
-                            <p>Add LinkedIn link</p>
+                            <p><a href="https://www.linkedin.com">LinkedIn link</a></p>
                         </div>
                     </div>
                     

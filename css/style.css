@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -21,7 +22,14 @@ body {
     font-size: 1.2rem;
     color: #666;
 }
+/*header styling*/
 
+ .navbar-brand img {
+            height: 80px;
+            max-width: 100%;
+        }
+
+/*header ends*/
 h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -109,7 +117,9 @@ footer a:hover {
     text-transform: uppercase;
 }
 
+
 /*strip mobile */
+
 @media (max-width: 768px) {
     .page-header-strip .container {
         flex-direction: column;
@@ -136,3 +146,4 @@ footer a:hover {
         flex: 0 0 100%;
     }
 }
+

@@ -192,10 +192,10 @@ $metaDescription = "Learn about our biotech company focused on developing innova
             <h2 class="section-title">About us</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>
+                    <p class="feature-text">
                         We are a biotech company engaged in the discovery and development of monoclonal antibodies (mAbs) as next-generation treatments for autoimmune and other inflammatory diseases.
                     </p>
-                    <p>
+                    <p class="feature-text">
                         Our innovative monoclonal antibody (mAb) development approach focuses on targeting multiple disease areas where effective therapies are unavailable.
                     </p>
                 </div>
@@ -208,7 +208,7 @@ $metaDescription = "Learn about our biotech company focused on developing innova
         <!-- Mission Section -->
         <section class="mission-section">
             <h2 class="section-subtitle">Our Mission</h2>
-            <p>
+            <p class="feature-text">
                 To develop innovative monoclonal antibody therapies that target key immune pathways involved in autoimmune and gastrointestinal inflammatory diseases, addressing significant unmet medical needs.
             </p>
         </section>
@@ -216,7 +216,7 @@ $metaDescription = "Learn about our biotech company focused on developing innova
         <!-- Vision Section -->
         <section class="vision-section">
             <h2 class="section-subtitle">Our Vision</h2>
-            <p>
+            <p class="feature-text">
                 To lead the next generation of precision immunology by developing transformative, science-driven therapies that redefine care and deliver lasting relief, renewed hope, and a healthier future for patients worldwide.
             </p>
         </section>
@@ -224,7 +224,7 @@ $metaDescription = "Learn about our biotech company focused on developing innova
         <!-- Values Section -->
         <section class="values-section">
             <h2 class="section-subtitle">Our Values</h2>
-            <p>
+            <p class="feature-text">
                 We are driven by innovation to transform treatments, guided by a patient-centered approach to improve outcomes, and committed to excellence through the highest scientific standards. Our work is strengthened by collaboration, grounded in integrity, fueled by resilience, and inspired by a passion to deliver impactful healthcare solutions.
             </p>
         </section>
@@ -232,24 +232,24 @@ $metaDescription = "Learn about our biotech company focused on developing innova
         <!-- Research Focus -->
         <section class="research-section">
             <h2 class="section-subtitle">Research Focus</h2>
-            <p>
+            <p class="feature-text">
                 Our research focuses on developing novel monoclonal antibodies that target specific immune pathways implicated in inflammatory diseases. By precisely targeting these pathways, our therapies aim to provide effective treatment options with fewer side effects than current treatments.
             </p>
-            <p>
+            <p class="feature-text">
                 Key areas of interest include:
             </p>
             <ul style="margin-left: 2rem; margin-top: 1rem; margin-bottom: 1.5rem;">
-                <li>Autoimmune disorders (including rheumatoid arthritis, lupus, and multiple sclerosis)</li>
-                <li>Inflammatory bowel diseases (Crohn's disease and ulcerative colitis)</li>
-                <li>Inflammatory skin conditions (psoriasis and atopic dermatitis)</li>
-                <li>Rare inflammatory disorders with limited treatment options</li>
+                <li class="feature-text">Autoimmune disorders (including rheumatoid arthritis, lupus, and multiple sclerosis)</li>
+                <li class="feature-text">Inflammatory bowel diseases (Crohn's disease and ulcerative colitis)</li>
+                <li class="feature-text">Inflammatory skin conditions (psoriasis and atopic dermatitis)</li>
+                <li class="feature-text">Rare inflammatory disorders with limited treatment options</li>
             </ul>
         </section>
         
         <!-- Contact CTA -->
         <section class="contact-cta">
             <h2>Interested in Learning More?</h2>
-            <p>Contact our team to discuss potential collaborations, investment opportunities, or career possibilities.</p>
+            <p class="feature-text">Contact our team to discuss potential collaborations, investment opportunities, or career possibilities.</p>
             <a href="contact.php" class="cta-button">Get in Touch</a>
         </section>
    

@@ -12,16 +12,13 @@
             background-color: #ffffff;
         }
         
-        .navbar-brand img {
-            height: 50px;
-        }
         
         .navbar-nav .nav-link {
             color: #333;
             font-weight: 500;
-            margin: 0 10px;
+        
             text-transform: uppercase;
-            font-size: 14px;
+            font-size: 16px;
         }
         
         .navbar-nav .nav-link:hover {

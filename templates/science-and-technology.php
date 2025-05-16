@@ -1,315 +1,298 @@
-<section class="science-technology-section">
-    <!-- Top navigation strip -->
-    <div class="page-header-strip">
-        <div class="container">
-            <div class="page-title">
-                Science & Technology
-            </div>
-            <div class="breadcrumb">
-                <a href="/index.php">Home</a> / <span>Science & Technology</span>
-            </div>
-        </div>
-    </div>
+<?php
+// Initialize page variables
+$pageTitle = "Science & Technology | Biotech Company";
+$metaDescription = "At Elemental Biologics, we apply precision immunology to develop innovative monoclonal antibody (mAb) therapies. Our drug discovery platform combines scientific expertise with advanced technologies to address complex immune-driven diseases.";
+?>
 
-    <div class="container">
-        <!-- Introduction Section -->
-        <div class="intro-section">
-            <h1>At Elemental Biologics, we apply precision immunology to develop innovative monoclonal antibody (mAb) therapies. Our drug discovery platform combines scientific expertise with advanced technologies to address complex immune-driven diseases.</h1>
-        </div>
-
-        <!-- Drug Discovery Process -->
-        <div class="discovery-process">
-            <div class="process-item">
-                <div class="process-header">
-                    <h2>1. Targeted Discovery</h2>
-                </div>
-                <div class="process-content">
-                    <p>We identify key immune pathways involved in multiple diseases, enabling cross-indication therapies with a single antibody.</p>
-                </div>
-            </div>
+    <style>
+        /* CSS Reset and Base Styles */
+        /* Main Content Styles */
+      
+        
+        /* About Section Styles */
+        
+        .section-title {
+            font-size: 2.2rem;
+            color: #1f2937;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            color: #1a2c41;
+        }
+        
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+        }
+        
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .about-text p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            max-width: 600px;
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Mission, Vision, Values Styles */
+        .mission-section,
+        .vision-section,
+        .values-section {
+            margin-bottom: 3rem;
+        }
+        
+        .section-subtitle {
+            font-size: 1.8rem;
+            color: #1f2937;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+        
+        /* Team Section */
+        .team-section {
+            margin-bottom: 3rem;
+        }
+        
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        
+        .team-member {
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+        
+        .team-member h3 {
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+        }
+        
+        .team-member p.position {
+            color: #4b5563;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        
+        /* Contact CTA Section */
+        .contact-cta {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            font-weight: 500;
+            margin-top: 1rem;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #1d4ed8;
+        }
+        
+        /* Footer Styles */
+        footer {
+            background-color: #1f2937;
+            color: white;
+            padding: 2rem 0;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+        
+        .footer-text {
+            opacity: 0.8;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column-reverse;
+            }
             
-            <div class="process-item">
-                <div class="process-header">
-                    <h2>2. Advanced Antibody Engineering</h2>
-                </div>
-                <div class="process-content">
-                    <p>We use state-of-the-art techniques to design and optimize mAbs for maximum precision, potency, and safety.</p>
-                </div>
-            </div>
+            .site-title {
+                font-size: 2rem;
+            }
             
-            <div class="process-item">
-                <div class="process-header">
-                    <h2>3. Translational Development</h2>
-                </div>
-                <div class="process-content">
-                    <p>We advance promising candidates through rigorous preclinical models ensuring strong efficacy and safety, advancing candidates with real-world impact.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Main Image/Diagram Section -->
-        <div class="science-diagram">
-            <img src="./images/science-img1.png" alt="Elemental Biologics Science Diagram" class="img-fluid">
-        </div>
-
-        <!-- Strategic Focus -->
-        <div class="strategic-focus">
-            <p>With a strategic focus on discovering mAbs targeting the key Interleukins (ILs) which regulate immune responses by mediating inflammation, immune cell activation, and tissue repair.</p>
-        </div>
-
-        <!-- Second Diagram -->
-        <div class="science-diagram">
-            <img src="./images/science-img2.png" alt="Interleukins and Autoimmune Diseases" class="img-fluid">
-        </div>
-
-        <!-- Key Points Boxes -->
-        <div class="key-points">
-            <div class="key-point-box">
-                <div class="key-point-content">
-                    <p>Blocking or Enhancing IL signaling is a key strategy in treating inflammatory & autoimmune diseases</p>
-                </div>
-            </div>
+            .site-description {
+                font-size: 1rem;
+            }
             
-            <div class="key-point-box">
-                <div class="key-point-content">
-                    <p>Over 60% of marketed monoclonal antibody (mAb) therapies for IBD and autoimmune diseases target ILs or their receptors</p>
-                </div>
-            </div>
+            .nav-container {
+                flex-direction: column;
+            }
             
-            <div class="key-point-box">
-                <div class="key-point-content">
-                    <p>Crohn's and Ulcerative Colitis (IBD Market: $22.8Bn) represent the primary target designations for Elemental's pipeline of preclinical drugs</p>
+            .menu {
+                margin-top: 1rem;
+                justify-content: center;
+            }
+            
+            .menu li:first-child {
+                margin-left: 0;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .section-subtitle {
+                font-size: 1.5rem;
+            }
+             .key-point-box {
+                flex: 0 0 48%;
+    }
+        }
+
+    .custom-paragraph{
+        max-width: 900px;
+    }
+    .custom-bg-col {
+        background-color: #124170 !important;
+}
+.custom-bg-col p{
+    color: #fff;
+}
+    </style>
+    
+
+        <!-- About Us Section -->
+        <section class="about-section">
+            <h3>At Elemental Biologics, we apply precision immunology to develop innovative monoclonal antibody (mAb) therapies. Our drug discovery platform combines scientific expertise with advanced technologies to address complex immune-driven diseases.</h3>
+        </section>
+        <section class="about-section">
+            <div class="about-content">
+                <div class="row g-4">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="h-100 p-4 bg-white rounded shadow-sm">
+                            <h3 class="h4 mb-3">1. Targeted Discovery</h3>
+                            <p class="mb-0">We identify key immune pathways involved in multiple diseases, enabling cross-indication therapies with a single antibody.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-12">
+                        <div class="h-100 p-4 bg-white rounded shadow-sm">
+                            <h3 class="h4 mb-3">2. Advanced Antibody Engineering</h3>
+                            <p class="mb-0">We use state-of-the-art techniques to design and optimize mAbs for maximum precision, potency, and safety.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-12">
+                        <div class="h-100 p-4 bg-white rounded shadow-sm">
+                            <h3 class="h4 mb-3">3. Translational Development</h3>
+                            <p class="mb-0">We advance promising candidates through rigorous preclinical models ensuring strong efficacy and safety, advancing candidates with real-world impact.</p>
+                        </div>
+                    </div>
+                </div>             
                 </div>
+            </section>
+        
+        <!-- Mission Section -->
+        <!-- section 3 starts -->
+        <section class="about-section">
+            <div class="about-content">
+                <div class="row">
+                    <div class="col-12 py-3">  <!-- py-3 adds 1rem (16px) padding top and bottom -->
+                        <div class="w-100">  <!-- w-100 makes container full width -->
+                            <img src="./images/science-img1.png" class="img-fluid" alt="Science Diagram"><br><br>
+                            
+                                <p class="mb-0 custom-paragraph">With a strategic focus on discovering mAbs targeting the key Interleukins (ILs) which regulate immune responses by mediating inflammation, immune cell activation, and tissue repair.</p>
+                        </div>
+                    </div>
+                </div>             
             </div>
-        </div>
+        </section>
 
-        <!-- Additional Images (Can be used as needed) -->
-        <div class="science-diagram">
-            <img src="./images/science-and-technology-3.png" class="img-fluid">
-        </div>
-    </div>
-</section>
-
-<style>
-/* Base Styles */
-.science-technology-section {
-    font-family: Arial, sans-serif;
-    color: #333;
-    line-height: 1.6;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-img.img-fluid {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* Page Header Strip */
-.page-header-strip {
-    background-color: #124170;
-    color: white;
-    padding: 15px 0;
-    margin-bottom: 40px;
-}
-
-.page-header-strip .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.breadcrumb {
-    font-size: 14px;
-}
-
-.breadcrumb a {
-    color: white;
-    text-decoration: none;
-}
-
-.breadcrumb a:hover {
-    text-decoration: underline;
-}
-
-.page-title {
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-/* Introduction Section */
-.intro-section {
-    margin-bottom: 50px;
-}
-
-.intro-section h1 {
-    font-size: 24px;
-    line-height: 1.5;
-    font-weight: normal;
-    color: #124170;
-}
-
-/* Discovery Process */
-.discovery-process {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 40px;
-}
-
-.process-item {
-    flex: 0 0 30%;
-    margin-bottom: 30px;
-}
-
-.process-header h2 {
-    font-size: 22px;
-    color: #124170;
-    margin-bottom: 15px;
-    font-weight: bold;
-}
-
-.process-content p {
-    font-size: 16px;
-    color: #333;
-}
-
-/* Science Diagram */
-.science-diagram {
-    margin: 40px 0;
-    text-align: center;
-}
-
-/* Strategic Focus */
-.strategic-focus {
-    margin: 40px 0;
-}
-
-.strategic-focus p {
-    font-size: 18px;
-    color: #124170;
-    line-height: 1.6;
-}
-
-/* Key Points Boxes */
-.key-points {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 50px 0;
-}
-
-.key-point-box {
-    flex: 0 0 32%;
-    background-color: #124170;
-    color: white;
-    padding: 25px 20px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    min-height: 150px;
-}
-
-.key-point-content p {
-    font-size: 16px;
-    margin: 0;
-}
-
-/* Additional Images */
-.additional-images {
-    margin: 50px 0;
-}
-
-.image-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.image-col {
-    flex: 0 0 32%;
-    margin-bottom: 20px;
-}
-
-/* Footer Section */
-.section-footer {
-    margin: 40px 0 20px;
-    text-align: right;
-    font-size: 12px;
-    color: #666;
-}
-
-/* Responsive Styles */
-@media (max-width: 992px) {
-    .process-item {
-        flex: 0 0 48%;
-    }
-    
-    .key-point-box {
-        flex: 0 0 48%;
-    }
-    
-    .image-col {
-        flex: 0 0 48%;
-    }
-}
-
-@media (max-width: 768px) {
-    .page-header-strip .container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    .page-title {
-        margin-top: 5px;
-    }
-    
-    .intro-section h1 {
-        font-size: 20px;
-    }
-    
-    .process-item {
-        flex: 0 0 100%;
-    }
-    
-    .key-point-box {
-        flex: 0 0 100%;
-    }
-    
-    .image-col {
-        flex: 0 0 100%;
-    }
-}
-
-@media (max-width: 576px) {
-    .container {
-        width: 95%;
-        padding: 0 10px;
-    }
-    
-    .intro-section h1 {
-        font-size: 18px;
-    }
-    
-    .process-header h2 {
-        font-size: 20px;
-    }
-    
-    .strategic-focus p {
-        font-size: 16px;
-    }
-    
-    .key-point-box {
-        padding: 20px 15px;
-    }
-}
-</style>
+        <!-- section 5 starts -->
+        <section class="about-section">
+            <div class="about-content">
+                <div class="row">
+                    <div class="col-12 py-3">  <!-- py-3 adds 1rem (16px) padding top and bottom -->
+                        <div class="w-100">  <!-- w-100 makes container full width -->
+                             <img src="./images/science-img2.png" class="img-fluid" alt="Science Diagram"> 
+                        </div>
+                    </div>
+                </div>             
+            </div>
+        </section>
+         <!-- section 6 starts -->
+        <section class="about-section">
+            <div class="about-content">
+                <div class="row g-4">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="h-100 p-4 custom-bg-col rounded shadow-sm">
+                            <p class="mb-0">Blocking or Enhancing IL signaling is a key strategy in treating inflammatory & autoimmune diseases</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-12">
+                        <div class="h-100 p-4 bg-white rounded shadow-sm custom-bg-col">
+                            <p class="mb-0">Over 60% of marketed monoclonal antibody (mAb) therapies for IBD and autoimmune diseases target ILs or their receptors.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-12">
+                        <div class="h-100 p-4 bg-white rounded shadow-sm custom-bg-col">
+                            <p class="mb-0">Crohn's and Ulcerative Colitis (IBD Market: $22.8Bn) represent the primary target designations for Elemental's pipeline of preclinical drugs.</p>
+                        </div>
+                    </div>
+                </div>             
+                </div>
+            </section>
+ <!-- section 7 starts -->
+        <section class="about-section">
+            <div class="about-content">
+                <div class="row">
+                    <div class="col-12 py-3">  <!-- py-3 adds 1rem (16px) padding top and bottom -->
+                        <div class="w-100">  <!-- w-100 makes container full width -->
+                             <img src="./images/science-and-technology-3.png" class="img-fluid" alt="Science Diagram"> 
+                        </div>
+                    </div>
+                </div>             
+            </div>
+        </section>
+        

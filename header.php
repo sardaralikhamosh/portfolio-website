@@ -13,10 +13,7 @@
             background-color: white;
         }
         
-        .navbar-brand img {
-            height: 80px;
-            max-width: 100%;
-        }
+       
         
         .navbar-nav .nav-link {
             color: #333;
@@ -93,6 +90,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="career.php">CAREER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pipeline.php">PIPELINE</a>
                         </li>
                         <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
                             <a class="btn consultation-btn" href="contact.php">Schedule a Consultation</a>

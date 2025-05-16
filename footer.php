@@ -10,11 +10,11 @@
                     </a>
                 </div>
                 <div class="contact-info">
-                    <p><img src="images/call.svg" alt="Phone" class="icon me-2"> (760) 814-2087</p>
-                    <p><img src="images/email.svg" alt="Email" class="icon me-2"> contact@elementalbiologics.com</p>
-                    <p><img src="images/location.svg" alt="Location" class="icon me-2"> Elemental Biologics<br>
-                        <span class="ms-4">6084 Corte del Cedro, Suite 100</span><br>
-                        <span class="ms-4">Carlsbad, CA 92011</span>
+                    <p class="text-white feature-text"><img src="images/call.svg" alt="Phone" class="icon me-2"> (760) 814-2087</p>
+                    <p class="text-white feature-text"><img src="images/email.svg" alt="Email" class="icon me-2"> contact@elementalbiologics.com</p>
+                    <p class="text-white feature-text"><img src="images/location.svg" alt="Location" class="icon me-2"> Elemental Biologics<br>
+                        <span class="ms-4 text-white feature-text">6084 Corte del Cedro, Suite 100</span><br>
+                        <span class="ms-4 text-white feature-text">Carlsbad, CA 92011</span>
                     </p>
                 </div>
             </div>
@@ -24,16 +24,16 @@
                 <h5 class="text-uppercase mb-4">Quick Links</h5>
                 <ul class="list-unstyled">
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">Our Services</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">Our Services</a>
                     </li>
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">Mission</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">Mission</a>
                     </li>
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">Pharmacore Market Tracker</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">Pharmacore Market Tracker</a>
                     </li>
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">Pharmaceutical Market Directory</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">Pharmaceutical Market Directory</a>
                     </li>
                 </ul>
             </div>
@@ -43,16 +43,16 @@
                 <h5 class="text-uppercase mb-4">Useful Links</h5>
                 <ul class="list-unstyled">
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">New Market Analysis</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">New Market Analysis</a>
                     </li>
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">Process Development</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">Process Development</a>
                     </li>
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">Drug Certification</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">Drug Certification</a>
                     </li>
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">Market Development</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">Market Development</a>
                     </li>
                 </ul>
             </div>
@@ -62,16 +62,16 @@
                 <h5 class="text-uppercase mb-4">Preparation Tips</h5>
                 <ul class="list-unstyled">
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">Before Your Blood Test</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">Before Your Blood Test</a>
                     </li>
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">What to Expect During the Draw</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">What to Expect During the Draw</a>
                     </li>
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">After Your Blood Test</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">After Your Blood Test</a>
                     </li>
                     <li class="mb-2">
-                        <a href="/about" class="text-white text-decoration-none hover-underline">Where do I Go for a Blood Draw?</a>
+                        <a href="/test/about.php" class="feature-text text-white text-decoration-none hover-underline">Where do I Go for a Blood Draw?</a>
                     </li>
                 </ul>
             </div>
@@ -82,21 +82,21 @@
             <div class="col-md-12 text-center">
                 <ul class="list-inline social-icons">
                     <li class="list-inline-item">
-                        <a href="/about" class="text-white">
+                        <a href="/test/about.php" class="text-white">
                             <div class="social-icon-circle">
                                 <img src="images/facebook-icon.svg" alt="Facebook" class="social-icon">
                             </div>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="/about" class="text-white">
+                        <a href="/test/about.php" class="text-white">
                             <div class="social-icon-circle">
                                 <img src="images/x-icon.svg" alt="X" class="social-icon">
                             </div>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="/about" class="text-white">
+                        <a href="/test/about.php" class="text-white">
                             <div class="social-icon-circle">
                                 <img src="images/youtube-icon.svg" alt="YouTube" class="social-icon">
                             </div>
@@ -108,7 +108,7 @@
 
         <!-- Copyright -->
         <div class="row mt-4">
-            <div class="col text-center">
+            <div class="feature-text col text-center">
                 <p>&copy; <?php echo date('Y'); ?> Elemental. All rights reserved</p>
             </div>
         </div>

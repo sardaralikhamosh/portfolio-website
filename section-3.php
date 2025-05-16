@@ -16,25 +16,25 @@
                     <div class="content-wrapper">
                         <h2>Science &<br>Technology</h2>
                         
-                        <p class="intro-text">
+                        <p class="intro-text feature-text">
                             At Elemental Biologics, we apply precision immunology to develop innovative monoclonal antibody (mAb) therapies. Our drug discovery platform combines scientific expertise with advanced technologies to address complex immune-driven diseases.
                         </p>
                         
-                        <div class="approach-item">
+                        <div class="approach-item ">
                             <h3><span class="number">1.</span> Targeted Discovery</h3>
-                            <p>We identify key immune pathways involved in multiple diseases, enabling cross-indication therapies with a single antibody.</p>
+                            <p class="feature-text">We identify key immune pathways involved in multiple diseases, enabling cross-indication therapies with a single antibody.</p>
                             <div class="divider"></div>
                         </div>
                         
                         <div class="approach-item">
                             <h3><span class="number">2.</span> Advanced Antibody Engineering</h3>
-                            <p>We use state-of-the-art techniques to design and optimize mAbs for maximum precision, potency, and safety.</p>
+                            <p class="feature-text">We use state-of-the-art techniques to design and optimize mAbs for maximum precision, potency, and safety.</p>
                             <div class="divider"></div>
                         </div>
                         
                         <div class="approach-item">
                             <h3><span class="number">3.</span> Translational Development</h3>
-                            <p>We advance promising candidates through rigorous preclinical models ensuring strong efficacy and safety, advancing candidates with real-world impact.</p>
+                            <p class="feature-text">We advance promising candidates through rigorous preclinical models ensuring strong efficacy and safety, advancing candidates with real-world impact.</p>
                         </div>
                     </div>
                 </div>
