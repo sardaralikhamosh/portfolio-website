@@ -59,6 +59,9 @@
 </section>
 
 <style>
+    section.container-fluid{
+        padding: 0;
+    }
     .science-technology-section {
         background-color: #f8f9fa;
         padding: 80px 0;

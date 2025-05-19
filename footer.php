@@ -120,6 +120,9 @@
     footer {
         background-color: #02204A !important; /* Exact dark blue color as specified */
     }
+    footer.container-fluid.bg-light{
+    padding: 0 !important;
+}
     
     .hover-underline:hover {
         text-decoration: underline !important;

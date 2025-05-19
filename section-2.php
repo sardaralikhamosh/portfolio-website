@@ -37,6 +37,9 @@
 </section>
 
 <style>
+    section.container-fluid{
+        padding: 0;
+    }
     .about-section {
         overflow: hidden;
         position: relative;

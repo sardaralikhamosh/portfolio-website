@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elemental Biologics</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/dist/css/bootstrap.min.js" rel="stylesheet">
+    
     <!-- Custom CSS -->
     <style>
+        main.container-fluid {
+    padding: 0 !important;
+}
         .navbar {
             padding: 15px 0;
             background-color: white;
         }
-        
-       
         
         .navbar-nav .nav-link {
             color: #333;
@@ -40,23 +43,38 @@
             background-color: #003980;
             color: white;
         }
+        
         header {
-          box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2) !important; /* bottom border shadow */
+            box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2) !important;
         }
         
         /* Mobile menu styling */
         @media (max-width: 991px) {
             .navbar-collapse {
                 padding: 20px 0;
+                background-color: white;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                z-index: 1000;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            
+            .navbar-nav {
+                padding: 0 15px;
             }
             
             .navbar-nav .nav-link {
                 padding: 10px 0;
+                border-bottom: 1px solid #f0f0f0;
             }
             
             .consultation-btn {
-                margin-top: 15px;
-                display: inline-block;
+                margin: 15px 0;
+                display: block;
+                width: 100%;
+                text-align: center;
             }
         }
     </style>
@@ -94,6 +112,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="pipeline.php">PIPELINE</a>
                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="teams.php">TEAM & LEADERSHIP</a>
+                        </li>
                         <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
                             <a class="btn consultation-btn" href="contact.php">Schedule a Consultation</a>
                         </li>
@@ -102,4 +123,8 @@
             </div>
         </nav>
     </header>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
     <!-- Page Content Goes Below This -->

@@ -40,6 +40,9 @@
 </html>
 
 <style>
+    main.container-fluid {
+    padding: 0 !important;
+}
     /* Page Header Strip */
 .page-header-strip {
     background-color: #124170;

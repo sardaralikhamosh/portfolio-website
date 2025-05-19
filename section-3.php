@@ -51,6 +51,9 @@
 </section>
 
 <style>
+    section.container-fluid{
+        padding: 0;
+    }
     .science-tech-detail-section {
         position: relative;
         overflow: hidden;
