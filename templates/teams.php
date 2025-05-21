@@ -159,7 +159,7 @@
     <!-- row 2 -->
     <div class="row team-row">
         <!-- Team Member 1 -->
-        <div class="col-md-12 col-12">
+        <div class="col-md-6 col-12">
             <div class="team-member-box h-100">
                 <div class="team-member-content">
                     <div class="team-member-image">
@@ -168,10 +168,10 @@
                     <div class="team-member-info">
                         <h3>MARIA SARTORI, PhD</h3>
                         <p><strong>Lead Scientist</strong></p>
-                        <p>As Lead Scientist at Elemental Biologics, Dr. Maria Sartori plays a pivotal role in shaping the company’s scientific direction and innovation strategy. She leads the design and execution of antibody discovery and development programs, guiding research strategy, assay development, and antibody characterization. Dr. Sartori also drives collaborations with external partners to advance therapeutic innovation from early discovery through preclinical validation and into translational strategies that move science from concept to clinic.
-Before joining Elemental, Dr. Sartori contributed to high-impact research at leading institutions including the Hospital for Sick Children (Toronto), University of Toronto, the Ontario Institute for Cancer Research, and the Toronto Recombinant Antibody Centre. Her work focused on drug target discovery, including target identification, validation, and mechanistic studies, contributing to the development of novel therapeutic candidates.
-She is the author of 13 peer-reviewed publications and is deeply committed to scientific communication, mentorship, and collaboration. Dr. Sartori holds a PhD in Molecular Biology from Erasmus University Rotterdam and a BSc in Biological Sciences from the Pontifical Catholic University of Campinas, Brazil.
-</p>
+<!--                        <p>As Lead Scientist at Elemental Biologics, Dr. Maria Sartori plays a pivotal role in shaping the company’s scientific direction and innovation strategy. She leads the design and execution of antibody discovery and development programs, guiding research strategy, assay development, and antibody characterization. Dr. Sartori also drives collaborations with external partners to advance therapeutic innovation from early discovery through preclinical validation and into translational strategies that move science from concept to clinic.-->
+<!--Before joining Elemental, Dr. Sartori contributed to high-impact research at leading institutions including the Hospital for Sick Children (Toronto), University of Toronto, the Ontario Institute for Cancer Research, and the Toronto Recombinant Antibody Centre. Her work focused on drug target discovery, including target identification, validation, and mechanistic studies, contributing to the development of novel therapeutic candidates.-->
+<!--She is the author of 13 peer-reviewed publications and is deeply committed to scientific communication, mentorship, and collaboration. Dr. Sartori holds a PhD in Molecular Biology from Erasmus University Rotterdam and a BSc in Biological Sciences from the Pontifical Catholic University of Campinas, Brazil.-->
+<!--</p>-->
                     </div>
                 </div>
             </div>

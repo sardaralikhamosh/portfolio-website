@@ -6,13 +6,14 @@
     <title>Elemental Biologics</title>
     <!-- Bootstrap CSS -->
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="bootstrap/dist/css/bootstrap.min.js" rel="stylesheet">
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
     
     <!-- Custom CSS -->
     <style>
         main.container-fluid {
-    padding: 0 !important;
-}
+            padding: 0 !important;
+        }
         .navbar {
             padding: 15px 0;
             background-color: white;
@@ -112,7 +113,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="pipeline.php">PIPELINE</a>
                         </li>
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" href="teams.php">TEAM & LEADERSHIP</a>
                         </li>
                         <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
@@ -126,5 +127,30 @@
     
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript to close mobile menu when a link is clicked -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get all nav links
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link, .navbar-nav .consultation-btn');
+            
+            // Get the navbar toggler button
+            const navbarToggler = document.querySelector('.navbar-toggler');
+            
+            // Get the collapsible menu
+            const navbarCollapse = document.querySelector('#navbarNav');
+            
+            // Add click event listener to each nav link
+            navLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    // Check if the navbar is expanded (visible on mobile)
+                    if (navbarToggler.getAttribute('aria-expanded') === 'true') {
+                        // Simulate a click on the navbar toggler to collapse the menu
+                        navbarToggler.click();
+                    }
+                });
+            });
+        });
+    </script>
     
     <!-- Page Content Goes Below This -->
