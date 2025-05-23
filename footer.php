@@ -109,7 +109,7 @@
         <!-- Copyright -->
         <div class="row mt-4">
             <div class="feature-text col text-center">
-                <p>&copy; <?php echo date('Y'); ?> Elemental. All rights reserved</p>
+                <p>&copy; <?php echo date('Y'); ?> Elemental. All rights reserved & Developed by Sardar Ali khamosh</p>
             </div>
         </div>
     </div>
